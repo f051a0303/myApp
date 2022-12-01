@@ -6,7 +6,6 @@ import RouteGuard from '../components/RouteGuard';
 
 function MyApp({ Component, pageProps }) {
 return(
-  <br/>
   <RouteGuard>
     <Layout>
       <SWRConfig value={{
