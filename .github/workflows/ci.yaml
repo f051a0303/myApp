@@ -15,12 +15,4 @@ jobs:
       - name: Run ESlint
         run: npm run lint
 
-      - name: Run Jest Tests
-        run: npm run ci:test
-
-      - name: Run Cypress Tests
-        uses: cypress-io/github-action@v4
-        with:
-          build: npm run build
-          start: npm start
 
