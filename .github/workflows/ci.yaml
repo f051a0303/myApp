@@ -1,7 +1,7 @@
 name: CI
 on: [push]
 jobs:
-  run-test:
+  run-tests:
     name: Lint and Test
     runs-on: ubuntu-latest
 
@@ -14,4 +14,13 @@ jobs:
 
       - name: Run ESlint
         run: npm run lint
+
+      - name: Run Jest Tests
+        run: npm run ci:test
+
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v4
+        with:
+          build: npm run build
+          start: npm start
 
