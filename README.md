@@ -13,11 +13,28 @@ Welcome to My WebApp, a simple and easy-to-use web application for browsing muse
 
 ## Features
 
+### Advanced Search
+
+Use our advanced search feature to find items in our collection with specific titles, geographic locations, or mediums. You can also search for items that have been highlighted or are currently on view.
+
+Here are the available search options:
+
+- `#search-query`: Enter keywords or phrases to search for.
+- `#search-by`: Choose from Title, Geo Location, or Medium to search for items by category.
+- `#geo-location-and-medium`: Enter one or more search terms separated by the `|` operator for Geo Location and Medium.
+- `#highlighted`: Search for items that have been highlighted in our collection.
+- `#currently-on-view`: Search for items that are currently on view in our collection.
+
+Use these search options to explore our collection and find the items you're interested in.
+
+
+Besides that, it is a:
+
 - A modern and user-friendly design that provides a seamless user experience
 - JWT (JSON Web Token) authentication, which enables secure authentication and authorization for users
 - A user registration feature that allows users to create an account and securely store their credentials
 - A login feature that enables registered users to access their account and securely authenticate themselves using their stored credentials
-- A user dashboard that displays personalized information for each user, including their profile information and any saved preferences or settings
+- A user dashboard that displays personalized information for each user, including their profile information and any saved preferences or search history
 - Role-based access control, which ensures that each user can only access the features and functionalities they are authorized to use
 - User data encryption and secure storage, which protects user data from unauthorized access or breaches
 - Error handling and exception reporting, which improves the app's robustness and reliability by handling any errors or exceptions that may occur
