@@ -9,7 +9,7 @@ Welcome to My WebApp, a simple and easy-to-use web application for browsing muse
 - [Installation](#installation)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
+- [API](#api)
 
 ## Features
 
@@ -83,5 +83,18 @@ If you encounter any issues during the deployment process, please consult the do
 ## Contributing
 
 If you'd like to contribute to this project, I welcome your contributions! Simply fork this repository and make any necessary changes. Then, submit a pull request with your changes and a brief description of what you've done. I'll review your changes and merge them into the main repository if they're appropriate.
+
+## API
+
+
+The Museum Web App is a frontend application that allows users to browse collections and exhibitions from various museums. This app is powered by the [Museum React App API](https://github.com/f051a0303/Museum-API), which provides data and functionality to the app.
+
+To use the authentication features of the Museum Web App, you will need to have the Museum React App API up and running. Without the API, the entire authentication features will not work, including user registration, login, and the ability to view and modify a user's favorite exhibits and recently viewed exhibits.
+
+Additionally, the searching feature in the Museum Web App is only available after a user has logged in. Without the API, this feature will not work.
+
+To get started with the Museum Web App, you'll need to have the Museum React App API up and running. If you haven't already, head over to the [Museum React App API repository](https://github.com/f051a0303/Museum-API) to get started. 
+
+Once the API is running, simply open the Museum Web App and start browsing museum collections and exhibitions.
 
 
