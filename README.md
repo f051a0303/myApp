@@ -97,4 +97,7 @@ To get started with the Museum Web App, you'll need to have the Museum React App
 
 Once the API is running, simply open the Museum Web App and start browsing museum collections and exhibitions.
 
+## License
+This project is licensed under the MIT License.
+
 
